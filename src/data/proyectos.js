@@ -36,7 +36,7 @@ export const dataProyectos = [
     {
         id: 5,
         title: 'GALERIA DE IMAGENES',
-        description: 'Mini ptoyecto, galeria de imagenes. Tecnologías: HTML5 - CSS - JavaScript',
+        description: 'Mini proyecto, galeria de imagenes. Tecnologías: HTML5 - CSS - JavaScript',
         image: galeriaImagenes,
         repositorio: 'https://github.com/fede-alejandro/Galeria-de-imagenes',
     },
