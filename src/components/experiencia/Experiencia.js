@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { dataExperiencia } from '../../data/experiencia';
 import { experiecialaboral } from '../../img';
-import { ExperienciaCarta } from './ExperienciaCarta';
+import { CartaDeExperiencia } from './CartaDeExperiencia';
 
 
 
@@ -15,7 +15,7 @@ function Experiencia() {
                 <img src={experiecialaboral} alt='avatar' />
             </div>
             {experiencias && <div>
-                {experiencias.map((experiencia) => (<ExperienciaCarta key={experiencia.id}  {...experiencia} setExperiencias={setExperiencias}
+                {experiencias.map((experiencia) => (<CartaDeExperiencia key={experiencia.id}  {...experiencia} setExperiencias={setExperiencias}
                 />))}
             </div>}
         </div>

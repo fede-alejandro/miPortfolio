@@ -1,7 +1,7 @@
 import NavBar from './components/NavBar';
 import { Routes, Route } from 'react-router-dom'
-import Educacion from './components/Educacion';
-import Experiencia from '././components/experiencia/Experiencia';
+import Educacion from '././components/educacion/Educacion';
+import Experiencia from './components/experiencia/Experiencia';
 import Proyectos from '././components/proyectos/Proyectos';
 import Competencias from './components/Competencias';
 import SobreMi from './components/Sobre-mi';

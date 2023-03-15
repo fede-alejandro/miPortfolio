@@ -8,6 +8,7 @@ const todoList = require('./todoList.png')
 const blackjack = require('./blackjack.png')
 const galeriaImagenes = require('./galeriaImagenes.png')
 const carrito = require('./carrito.jpg')
+const diploma = require('./diploma.png')
 
 module.exports = {
     logo,
@@ -19,5 +20,6 @@ module.exports = {
     todoList,
     blackjack,
     galeriaImagenes,
-    carrito
+    carrito,
+    diploma
 }
