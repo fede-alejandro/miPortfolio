@@ -7,17 +7,18 @@ import Typewriter from 'typewriter-effect';
 function SobreMi() {
 
 
-    return <main className=' h-full w-full p-10 text-[#c6d6dd] flex-wrap'>
-        <div className='flex flex-col  content-center w-full content-fit'>
-            <h1 className='font-bold text-5xl text-white mt-4'>Federico Alejandro</h1>
+    return <main className='flex h-full w-full p-10 text-[#c6d6dd] flex-wrap'>
+        <div className='flex flex-col justify-center content-center'>
+            <h1 className='font-bold text-5xl text-white mt-2'>Federico Alejandro</h1>
             <Typewriter className='mt-2' options={{
                 strings: ['Full Stack Web Developer Jr'],
                 autoStart: true,
                 loop: true,
                 pauseFor: 2000
             }} />
-            <div className='flex justify-between'>
-                <div className='flex flex-col justify-start content-center mt-10 text-lg'>
+            <div className='flex flex-col-reverse mt-4 items-center md:flex-row justify-between gap-20'>
+
+                <div className='flex flex-col justify-start content-center text-lg'>
                     <p>¡Bienvenidos a mi portfolio!. Soy un Desarrollador Full Stack Junior,</p>
                     <p>en constante aprendizaje, descubriendo e incorporando nuevas</p>
                     <p>tecnologías y trabajando día a día para mejorar mis</p>
@@ -57,9 +58,9 @@ function SobreMi() {
                         </span>
                     </div>
                 </div>
-                <div className='hidden lg:flex h-80 m-auto'>
-                    <img src={fedecv} alt='fedecv' className='rounded-full'/>
-                </div>
+                {/* <div className=' mt-20'> */}
+                    <img src={fedecv} alt='fedecv' className='h-60 rounded-full m-auto md:h-80' />
+                {/* </div> */}
             </div>
         </div>
     </main>

@@ -1,4 +1,3 @@
-// import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu } from './Menu';
 
@@ -8,7 +7,7 @@ export default function NavBar() {
 
     return <header className=' p-2 text-[#c6d6dd]'>
 
-        <Menu />
+        <Menu/>
 
         <div className='md:flex md:flex-wrap md:items-center md:justify-around md:mx-auto'>
             <nav className='hidden md:flex md:flex-col md:mt-4 md:w-full mb-10'>
@@ -30,5 +29,6 @@ export default function NavBar() {
                 </ul>
             </nav>
         </div>
+
     </header>
 }
