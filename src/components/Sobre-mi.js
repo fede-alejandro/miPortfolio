@@ -1,7 +1,7 @@
-import { avatar } from '../img'
+import { fedecv } from '../img'
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si'
-import  Typewriter  from 'typewriter-effect';
+import Typewriter from 'typewriter-effect';
 
 
 function SobreMi() {
@@ -58,7 +58,7 @@ function SobreMi() {
                     </div>
                 </div>
                 <div className='hidden lg:flex h-80 m-auto'>
-                    <img src={avatar} alt='avatar' />
+                    <img src={fedecv} alt='fedecv' className='rounded-full'/>
                 </div>
             </div>
         </div>
