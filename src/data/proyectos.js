@@ -1,4 +1,4 @@
-import { logo, todoList, blackjack, galeriaImagenes, carrito } from '../img';
+import { logo, todoList, blackjack, galeriaImagenes, carrito, quizApp } from '../img';
 
 
 export const dataProyectos = [
@@ -40,5 +40,12 @@ export const dataProyectos = [
         image: galeriaImagenes,
         repositorio: 'https://github.com/fede-alejandro/Galeria-de-imagenes',
     },
+    {
+        id: 6,
+        title: 'Quiz App',
+        description: 'Juego de preguntas y respuestas sobre el espacio exterior. TecnologíasÑ HTML5, CSS3, JavaScript',
+        image: quizApp,
+        repositorio: 'https://github.com/fede-alejandro/quiz-app'
+    }
 ]
 

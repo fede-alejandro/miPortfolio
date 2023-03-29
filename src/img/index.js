@@ -10,6 +10,7 @@ const galeriaImagenes = require('./galeriaImagenes.png')
 const carrito = require('./carrito.jpg')
 const diploma = require('./diploma.png')
 const fedecv = require('./fedecv.jpg')
+const quizApp = require('./quizApp.png')
 
 module.exports = {
     logo,
@@ -23,5 +24,6 @@ module.exports = {
     galeriaImagenes,
     carrito,
     diploma,
-    fedecv
+    fedecv,
+    quizApp
 }
