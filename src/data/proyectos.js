@@ -1,4 +1,4 @@
-import { logo, todoList, blackjack, galeriaImagenes, carrito, quizApp } from '../img';
+import { proyecto, agenda, blackjack, galeriaImagenes, carrito, quizApp, portfolio } from '../img';
 
 
 export const dataProyectos = [
@@ -14,8 +14,8 @@ export const dataProyectos = [
     {
         id: 2,
         title: 'COMO LO RECICLO',
-        description: 'Una aplicación para que los usuarios donen artículos que ya no utilizan y les den una segunda vida. Al registrarse pueden realizar publicaciones, recibir mensajes de interesados y decidir a quién donarlos.También contiene información sobre reciclaje y un podcasts de Spotify. Tecnologías: HTML5 - CSS3 - JavaScript - React - Node - Express Mongo - Mongoose - Tailwind',
-        image: logo,
+        description: 'Una aplicación para que los usuarios donen artículos que ya no utilizan y les den una segunda vida. Al registrarse pueden realizar publicaciones, recibir mensajes de interesados y decidir a quién donarlos.También contiene información sobre reciclaje y un podcasts de Spotify. Tecnologías: HTML5 - CSS3 - JavaScript - React - Node Js - Express Mongo - Mongoose - Tailwind',
+        image: proyecto,
         repositorio: 'https://github.com/fede-alejandro/como-lo-reciclo',
 
     },
@@ -23,8 +23,8 @@ export const dataProyectos = [
         id: 3,
         title: 'AGENDA DE TAREAS',
         description: 'Desarrollo de un organizador de tareas. Contiene un página de registro, login y settings de perfil.Las tareas se pueden crear, editar, eliminar y categorizar por estados o progreso. Tecnologías: HTML5 - CSS3 - JavaScript - React - Tailwind',
-        image: todoList,
-        repositorio: 'https://github.com/fede-alejandro/Blackjack',
+        image: agenda,
+        repositorio: 'https://github.com/fede-alejandro/Agenda-tareas',
     },
     {
         id: 4,
@@ -43,9 +43,17 @@ export const dataProyectos = [
     {
         id: 6,
         title: 'Quiz App',
-        description: 'Juego de preguntas y respuestas sobre el espacio exterior. TecnologíasÑ HTML5, CSS3, JavaScript',
+        description: 'Juego de preguntas y respuestas sobre el espacio exterior. Tecnologías: HTML5, CSS3, JavaScript',
         image: quizApp,
         repositorio: 'https://github.com/fede-alejandro/quiz-app'
-    }
+    },
+    {
+        id: 7,
+        title: 'PORTFOLIO',
+        description: 'Portfolio contando más acerca de mí, mis proyectos, experiencia. Tecnologías: HTML5 - CSS3 - JavaScript - React - Node Js - Tailwind',
+        image: portfolio,
+        repositorio: 'https://github.com/fede-alejandro/portfolio',
+
+    },
 ]
 

@@ -4,13 +4,15 @@ const educacion = require('./educacion.png')
 const experiecialaboral = require('./experiencialaboral.png')
 const proyectos = require('./proyectos.png')
 const skills = require('./skills.png')
-const todoList = require('./todoList.png')
+const agenda = require('./agenda.png')
 const blackjack = require('./blackjack.png')
 const galeriaImagenes = require('./galeriaImagenes.png')
-const carrito = require('./carrito.jpg')
+const carrito = require('./carrito.png')
 const diploma = require('./diploma.png')
 const fedecv = require('./fedecv.jpg')
 const quizApp = require('./quizApp.png')
+const portfolio = require('./portfolio.png')
+const proyecto = require('./proyecto.png')
 
 module.exports = {
     logo,
@@ -19,11 +21,13 @@ module.exports = {
     experiecialaboral,
     proyectos,
     skills,
-    todoList,
+    agenda,
     blackjack,
     galeriaImagenes,
     carrito,
     diploma,
     fedecv,
-    quizApp
+    quizApp,
+    portfolio,
+    proyecto
 }
