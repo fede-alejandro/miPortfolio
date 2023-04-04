@@ -20,7 +20,7 @@ export function Menu() {
             </button>
             <nav className='w-full' id='navbar-hamburger' onClick={menuOpen}>
                 {toggleButton === 'close' &&
-                    <ul className='fixed flex flex-col mt-2 bg-[#938d8daa] h-[20%] w-[25%] rounded-xl gap-2 text-center justify-center'>
+                    <ul className='flex flex-col mt-4 gap-2'>
                         <NavLink to='/' className={({ isActive }) =>
                             `text-xl ${isActive ? ' text-white text-2xl p-1 transition duration-300 ease-out hover:ease-in' : ''}`}>Sobre mi</NavLink>
 
