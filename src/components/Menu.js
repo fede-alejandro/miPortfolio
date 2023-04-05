@@ -21,7 +21,7 @@ export function Menu() {
             </button>
             <div className='w-full' id='navbar-hamburger' onClick={menuOpen}>
                 {toggleButton === 'close' &&
-                    <ul className='flex flex-col mt-4 gap-2'>
+                    <ul className='fixed w-50 h-52 z-20 flex flex-col mt-4 gap-2 border border-white bg-[#427290] shadow-2xl rounded-xl text-center'>
                         <NavLink to='/' className={({ isActive }) =>
                             `text-xl ${isActive ? ' text-white text-2xl p-1 transition duration-300 ease-out hover:ease-in' : ''}`} aria-current='page'>Sobre mi</NavLink>
 
