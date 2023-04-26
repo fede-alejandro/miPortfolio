@@ -1,4 +1,4 @@
-import { diploma } from '../img';
+
 
 export const dataEducacion = [
     {
@@ -21,8 +21,6 @@ export const dataEducacion = [
         ubicacion: 'Rosario, Santa Fe, Argentina',
         fecha: '2010-2013',
         instituto: 'Instituto Superior particular Nro. 4039',
-        credencial: diploma
+
     },
-    
-    
 ]

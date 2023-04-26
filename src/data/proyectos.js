@@ -39,13 +39,15 @@ export const dataProyectos = [
         description: 'Mini proyecto, galeria de imagenes. Tecnologías: HTML5 - CSS - JavaScript',
         image: galeriaImagenes,
         repositorio: 'https://github.com/fede-alejandro/Galeria-de-imagenes',
+        app: 'https://galeria-de-imagenes-fedealejandro.vercel.app/'
     },
     {
         id: 6,
         title: 'Quiz App',
         description: 'Juego de preguntas y respuestas sobre el espacio exterior. Tecnologías: HTML5, CSS3, JavaScript',
         image: quizApp,
-        repositorio: 'https://github.com/fede-alejandro/quiz-app'
+        repositorio: 'https://github.com/fede-alejandro/quiz-app',
+        app: 'https://quiz-app-fedealejandro.vercel.app/'
     },
     {
         id: 7,

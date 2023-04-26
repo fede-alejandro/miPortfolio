@@ -1,67 +1,70 @@
-
 import { skills } from '../img';
+import { AiFillHtml5, AiOutlineGithub } from 'react-icons/ai'
+import { IoLogoCss3, IoLogoNodejs } from 'react-icons/io'
+import { FaGitAlt } from 'react-icons/fa'
+import { SiSass, SiTailwindcss, SiJest, SiNpm, SiJavascript, SiMongodb } from 'react-icons/si'
+import { RiReactjsLine } from 'react-icons/ri'
 
 
 
 function Competencias() {
 
     return <main className='flex content-center justify-center text-black font-bold italic w-[100%]'>
-        <div className='flex flex-col justify-center content-center mt-20 md:flex-row gap-20 '>
+        <div className='flex flex-col justify-center content-center mt-20 md:flex-row gap-20'>
             <div className='flex justify-center mt-20'>
                 <img src={skills} alt='' className='h-40' />
             </div>
-            <div className='grid grid-cols-[100px_minmax(100px,_1fr)_100px] gap-3 list-none'>
-                {/* <div className='flex flex-row gap-10'> */}
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>HTML5</p>
+            <div className='grid grid-cols-[150px_minmax(100px,_1fr)_150px] gap-7 list-none'>
+
+                <div className='competencias'>
+                    <SiJavascript size='1.5rem' />
+                    <span>JavaScript</span>
                 </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg shadow-xl shadow-gray-600'>
-                    <p>CSS</p>
+                <div className='competencias'>
+                    <RiReactjsLine size='1.5rem' />
+                    <span>ReactJs</span>
                 </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>Git</p>
+                <div className='competencias'>
+                    <AiFillHtml5 size='1.5rem' />
+                    <span>HTML5</span>
                 </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>SASS</p>
+                <div className='competencias'>
+                    <IoLogoCss3 size='1.5rem' />
+                    <span>CSS</span>
                 </div>
-                
-                <div className='flex  bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>Tailwind</p>
+                <div className='competencias'>
+                    <SiTailwindcss size='1.5rem' />
+                    <span>Tailwind</span>
                 </div>
-                <div className='flex  bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>ReactJs</p>
+                <div className='competencias'>
+                    <SiSass size='1.5rem' />
+                    <span>SASS</span>
                 </div>
-                <div className='flex  bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>JavaScript</p>
+
+                <div className='competencias'>
+                    <IoLogoNodejs size='1.5rem' />
+                    <span>Node JS</span>
                 </div>
-              
-                <div className='flex  bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>Node JS</p>
+                <div className='competencias'>
+                    <SiMongodb size='1.5rem' />
+                    <span>MongoDB</span>
                 </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg  shadow-xl shadow-gray-600'>
-                    <p>MongoDB</p>
+
+                <div className='competencias'>
+                    <SiJest size='1.5rem' />
+                    <span>Jest</span>
                 </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>File System</p>
+                <div className='competencias'>
+                    <FaGitAlt size='1.5rem' />
+                    <span>Git</span>
                 </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>HTTP Module</p>
+                <div className='competencias'>
+                    <AiOutlineGithub size='1.5rem' />
+                    <span>GitHub</span>
                 </div>
-              
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>Jest</p>
-                </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>Express</p>
-                </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>API Rest</p>
-                </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>GitHub</p>
-                </div>
-                <div className='flex bg-rose-200 p-2 justify-center rounded-lg gap-2 shadow-xl shadow-gray-600'>
-                    <p>NPM</p>
+                <div className='competencias'>
+                    <SiNpm size='1.5rem' />
+                    <span>NPM</span>
                 </div>
             </div>
         </div>

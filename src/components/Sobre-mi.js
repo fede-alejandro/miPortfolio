@@ -58,9 +58,7 @@ function SobreMi() {
                         </span>
                     </div>
                 </div>
-                {/* <div className=' mt-20'> */}
                     <img src={fedecv} alt='fedecv' className='h-60 rounded-full m-auto md:h-80' />
-                {/* </div> */}
             </div>
         </div>
     </main>

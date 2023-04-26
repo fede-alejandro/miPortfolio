@@ -1,12 +1,14 @@
-import { dataProyectos } from '../../data/proyectos'
-import { FaGithubSquare } from "react-icons/fa";
+import { dataProyectos } from '../../data/proyectos';
+import { FaGithubSquare } from 'react-icons/fa';
+import { BsFillEyeFill } from 'react-icons/bs'
+
 
 
 export const ProyectoCarta = ({
     title,
     description,
     repositorio,
-    icons,
+    app,
     image
 } = dataProyectos) => {
 
@@ -19,9 +21,14 @@ export const ProyectoCarta = ({
             <div className='flex flex-col content-center'>
                 <h2 className='font-bold text-2xl'>{title}</h2>
                 <p>{description}</p>
-                <a href={repositorio} target='_blank' rel='noreferrer' className='pt-2 mr-auto'>
-                    <FaGithubSquare size='1.5rem' />
-                </a>
+                <div className='flex flex-row gap-4'>
+                    <a href={repositorio} target='_blank' rel='noreferrer' className='pt-2'>
+                        <FaGithubSquare size='1.5rem' />
+                    </a>
+                    {app && <a href={app} target='_blank' rel='noreferrer' className='pt-2 '>
+                        <BsFillEyeFill size='1.5rem' />
+                    </a>}
+                </div>
             </div>
         </main>
     </article>

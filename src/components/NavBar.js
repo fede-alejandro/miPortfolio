@@ -13,19 +13,19 @@ export default function NavBar() {
             <nav className='hidden md:flex md:flex-col md:mt-4 md:w-full mb-10'>
                 <ul className='flex justify-around '>
                     <NavLink to='/' className={({ isActive }) =>
-                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'text-white text-2xl border-white border-b-2 transition duration-300 ease-in-out' : ''}`}>Sobre mi</NavLink>
+                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'active' : ''}`}>Sobre mi</NavLink>
 
                     <NavLink to='/educacion' className={({ isActive }) =>
-                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'text-white text-2xl border-white border-b-2 transition duration-300 ease-in-out' : ''}`}>Educación</NavLink>
+                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'active' : ''}`}>Educación</NavLink>
 
                     <NavLink to='/proyectos' className={({ isActive }) =>
-                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'text-white text-2xl  border-white border-b-2 transition duration-300 ease-in-out' : ''}`}>Proyectos</NavLink>
+                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'active' : ''}`}>Proyectos</NavLink>
 
                     <NavLink to='/competencias' className={({ isActive }) =>
-                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'text-white text-2xl border-white border-b-2 transition duration-300 ease-in-out' : ''}`}>Competencias</NavLink>
+                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'active' : ''}`}>Competencias</NavLink>
 
                     <NavLink to='/experiencia' className={({ isActive }) =>
-                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'text-white text-2xl border-white border-b-2  transition duration-300 ease-in-out' : ''}`}>Experiencia</NavLink>
+                        `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'active' : ''}`}>Experiencia</NavLink>
                 </ul>
             </nav>
         </div>

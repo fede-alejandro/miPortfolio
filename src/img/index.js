@@ -8,7 +8,6 @@ const agenda = require('./agenda.png')
 const blackjack = require('./blackjack.png')
 const galeriaImagenes = require('./galeriaImagenes.png')
 const carrito = require('./carrito.png')
-const diploma = require('./diploma.png')
 const fedecv = require('./fedecv.jpg')
 const quizApp = require('./quizApp.png')
 const portfolio = require('./portfolio.png')
@@ -25,7 +24,6 @@ module.exports = {
     blackjack,
     galeriaImagenes,
     carrito,
-    diploma,
     fedecv,
     quizApp,
     portfolio,

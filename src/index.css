@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
+
+.button_menu {
+    @apply inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg hover:border-2 focus:outline-none md:hidden;
+}
+
+.menu_active {
+    @apply text-white text-2xl p-1 transition duration-300 ease-out hover:ease-in;
+}
+
+.active {
+    @apply text-white text-2xl border-white border-b-2 transition duration-300 ease-in-out;
+}
+
+.competencias {
+    @apply flex w-fit bg-rose-200 p-2 justify-center rounded-xl gap-2 shadow-xl shadow-gray-600;
+}
+
 @tailwind utilities;
