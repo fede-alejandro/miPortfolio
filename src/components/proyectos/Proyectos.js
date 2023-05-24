@@ -6,7 +6,7 @@ function Proyectos() {
 
     const [proyectos, setProyectos] = useState(dataProyectos)
     
-    return <main className='flex flex-col items-center w-[100%] p-10 text-[#c6d6dd]'>
+    return <main className='flex flex-col items-center w-[100%] p-10 text-[#c6d6dd] animate-fade-right animate-ease-in'>
         {proyectos && <div >
             {proyectos.map((proyecto) => (<ProyectoCarta key={proyecto.id}  {...proyecto} setProjects={setProyectos} />))}
         </div>}

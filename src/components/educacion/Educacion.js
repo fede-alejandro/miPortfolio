@@ -6,7 +6,7 @@ function Educacion() {
 
     const [cursos, setCursos] = useState(dataEducacion)
 
-    return <main className='flex flex-col items-center w-[100%]  text-[#c6d6dd]'>
+    return <main className='flex flex-col items-center w-[100%] text-[#c6d6dd] animate-flip-down animate-ease-in'>
       {cursos && <div >
             {cursos.map((curso) => (<CartaDeEducacion key={curso.id}  {...curso} setcurso={setCursos} />))}
         </div>}
