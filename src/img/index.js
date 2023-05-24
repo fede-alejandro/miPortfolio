@@ -12,6 +12,8 @@ const fedecv = require('./fedecv.jpg')
 const quizApp = require('./quizApp.png')
 const portfolio = require('./portfolio.png')
 const proyecto = require('./proyecto.png')
+const certificadoReact = require('./certificadoReact.jpg')
+const certificadoJs = require('./certificadoJs.jpg')
 
 module.exports = {
     logo,
@@ -27,5 +29,7 @@ module.exports = {
     fedecv,
     quizApp,
     portfolio,
-    proyecto
+    proyecto,
+    certificadoReact,
+    certificadoJs
 }
