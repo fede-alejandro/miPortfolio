@@ -9,7 +9,7 @@ import { RiReactjsLine } from 'react-icons/ri'
 
 function Competencias() {
 
-    return <main className='flex content-center justify-center text-black font-bold italic w-[100%] animate-flip-down animate-ease-in'>
+    return <main className='flex content-center justify-center text-black font-bold italic w-[100%]'>
         <div className='flex flex-col justify-center content-center mt-20 md:flex-row gap-20'>
             <div className='flex justify-center mt-20'>
                 <img src={skills} alt='' className='h-40' />

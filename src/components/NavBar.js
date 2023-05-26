@@ -11,7 +11,7 @@ export default function NavBar() {
 
         <div className='md:flex md:flex-wrap md:items-center md:justify-around md:mx-auto'>
             <nav className='hidden md:flex md:flex-col md:mt-4 md:w-full mb-10'>
-                <ul className='flex justify-around '>
+                <ul className='flex justify-around'>
                     <NavLink to='/' className={({ isActive }) =>
                         `text-center transition ease-in duration-200 hover:-translate-y-1 hover:scale-110 text-xl ${isActive ? 'active' : ''}`}>Sobre mi</NavLink>
 

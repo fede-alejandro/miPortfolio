@@ -7,7 +7,7 @@ import Typewriter from 'typewriter-effect';
 function SobreMi() {
 
 
-    return <main className='flex h-full w-full p-10 text-[#c6d6dd] flex-wrap animate-fade-right animate-ease-in'>
+    return <main className='flex h-full w-full p-10 text-[#c6d6dd] flex-wrap'>
         <div className='flex flex-col justify-center content-center'>
             <h1 className='font-bold text-5xl text-white mt-2'>Federico Alejandro</h1>
             <Typewriter className='mt-2' options={{
