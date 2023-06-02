@@ -1,6 +1,6 @@
 import { dataProyectos } from '../../data/proyectos';
 import { FaGithubSquare } from 'react-icons/fa';
-import { BsFillEyeFill } from 'react-icons/bs'
+import { BsDisplay } from 'react-icons/bs'
 
 
 
@@ -26,7 +26,7 @@ export const ProyectoCarta = ({
                         <FaGithubSquare size='1.5rem' />
                     </a>
                     {app && <a href={app} target='_blank' rel='noreferrer' className='pt-2 '>
-                        <BsFillEyeFill size='1.5rem' />
+                        <BsDisplay size='1.5rem' />
                     </a>}
                 </div>
             </div>

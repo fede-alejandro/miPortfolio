@@ -14,6 +14,9 @@ const portfolio = require('./portfolio.png')
 const proyecto = require('./proyecto.png')
 const certificadoReact = require('./certificadoReact.jpg')
 const certificadoJs = require('./certificadoJs.jpg')
+const calendar = require('./calendar.png')
+const demoBlackjack = require('./demoBlackjack.mp4')
+
 
 module.exports = {
     logo,
@@ -31,5 +34,7 @@ module.exports = {
     portfolio,
     proyecto,
     certificadoReact,
-    certificadoJs
+    certificadoJs,
+    calendar,
+    demoBlackjack
 }

@@ -1,13 +1,22 @@
-import { dataEducacion } from '../../data/educacion'
+import { useState } from 'react';
+import { dataEducacion } from '../../data/educacion';
+import { Temario } from './Temario';
 
 export const CartaDeEducacion = ({
+    id,
     titulo,
+    temario,
     ubicación,
     fecha,
     credencial,
     instituto
 } = dataEducacion) => {
 
+    const [temarioCurso, setTemarioCurso] = useState(false)
+
+    const temas = () => !temarioCurso ? setTemarioCurso(true) : setTemarioCurso()
+
+    const closetemarioCurso = () => setTemarioCurso()
 
     return <article className='flex flex-col items-center w-[100%] text-[#c6d6dd]'>
         <main className='flex flex-col border-none shadow-2xl items-center md:flex-row border-2 border-[#c6d6dd] rounded-md p-4 m-4 gap-4 w-[75%]'>
@@ -15,8 +24,12 @@ export const CartaDeEducacion = ({
                 <h2 className='font-bold text-2xl'>{titulo}</h2>
                 <i>{ubicación} - {fecha}</i>
                 <p>{instituto}</p>
-                {credencial && <a href={credencial} className='flex m-auto justify-center border-2 border-blue-400  text-white text-center rounded-md p-2 transition ease-in duration-200 bg-blue-400 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600'>Certificado</a>}
+                <div className='flex flex-row justify-center gap-4'>
+                    {credencial && <a href={credencial} className='button'>Certificado</a>}
+                    {temario && <button onClick={temas} className='button'>Temario</button>}
+                </div>
             </div>
+            {temarioCurso && <Temario temario={temario} onClose={closetemarioCurso} />}
 
         </main>
     </article>
