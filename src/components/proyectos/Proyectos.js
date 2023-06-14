@@ -8,7 +8,7 @@ function Proyectos() {
     
     return <main className='flex flex-col items-center w-[100%] p-10 text-[#c6d6dd]'>
         {proyectos && <div >
-            {proyectos.map((proyecto) => (<ProyectoCarta key={proyecto.id}  {...proyecto} setProjects={setProyectos} />))}
+            {proyectos.map((proyecto) => (<ProyectoCarta key={proyecto.title}  {...proyecto} setProjects={setProyectos} />))}
         </div>}
 
     </main>

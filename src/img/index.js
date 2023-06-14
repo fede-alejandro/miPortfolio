@@ -16,6 +16,7 @@ const certificadoReact = require('./certificadoReact.jpg')
 const certificadoJs = require('./certificadoJs.jpg')
 const calendar = require('./calendar.png')
 const demoBlackjack = require('./demoBlackjack.mp4')
+const cotizadorCriptomonedas = require('./cotizadorCriptomonedas.png')
 
 
 module.exports = {
@@ -36,5 +37,6 @@ module.exports = {
     certificadoReact,
     certificadoJs,
     calendar,
-    demoBlackjack
+    demoBlackjack,
+    cotizadorCriptomonedas
 }

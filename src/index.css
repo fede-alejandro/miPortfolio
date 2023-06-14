@@ -10,7 +10,7 @@
 }
 
 .active {
-    @apply text-white text-2xl border-white border-b-2 transition duration-300 ease-in-out;
+    @apply  text-white text-2xl border-white border-b-2 transition duration-300 ease-in-out;
 }
 
 .competencias {
@@ -18,7 +18,7 @@
 }
 
 .button {
-    @apply flex  justify-center border-2 border-blue-400  text-white text-center rounded-md p-2 transition ease-in duration-200 bg-blue-400 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600
+    @apply flex justify-center border-2 border-blue-400  text-white text-center rounded-md p-2 transition ease-in duration-200 bg-blue-400 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600
 }
 
 @tailwind utilities;
