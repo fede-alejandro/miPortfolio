@@ -41,11 +41,6 @@ function Competencias() {
                     <span>Tailwind</span>
                 </div>
                 <div className='competencias'>
-                    <SiSass size='1.5rem' />
-                    <span>SASS</span>
-                </div>
-
-                <div className='competencias'>
                     <IoLogoNodejs size='1.5rem' />
                     <span>Node JS</span>
                 </div>

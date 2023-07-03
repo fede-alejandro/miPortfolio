@@ -13,8 +13,8 @@ export const ProyectoCarta = ({
 } = dataProyectos) => {
 
 
-    return <article className='flex flex-col items-center w-[100%]  text-[#c6d6dd]'>
-        <main className='flex flex-col border-none shadow-2xl items-center md:flex-row border-2 border-[#c6d6dd] rounded-md p-4 m-4 gap-4 w-[75%]'>
+    return <article className='flex flex-col items-center w-[100%] text-[#c6d6dd]'>
+        <main className='flex flex-col border-none shadow-2xl items-center md:flex-row border-2  rounded-3xl p-4 m-4 gap-4 w-[50%]'>
             <div className='flex items-center'>
                 <img src={image} alt='ImageProject' className='rounded-md w-[10rem] lg:ml-2 max-w-lg' />
             </div>
