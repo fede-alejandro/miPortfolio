@@ -2,7 +2,7 @@ import { skills } from '../img';
 import { AiFillHtml5, AiOutlineGithub } from 'react-icons/ai'
 import { IoLogoCss3, IoLogoNodejs } from 'react-icons/io'
 import { FaGitAlt } from 'react-icons/fa'
-import { SiSass, SiTailwindcss, SiJest, SiNpm, SiJavascript, SiMongodb, SiBootstrap } from 'react-icons/si'
+import { SiTailwindcss, SiJest, SiNpm, SiJavascript, SiMongodb, SiBootstrap } from 'react-icons/si'
 import { RiReactjsLine } from 'react-icons/ri'
 
 
@@ -14,7 +14,7 @@ function Competencias() {
             <div className='flex justify-center mt-20'>
                 <img src={skills} alt='' className='h-40' />
             </div>
-            <div className='grid grid-cols-[150px_minmax(100px,_1fr)_150px] gap-7 list-none'>
+            <div className='grid grid-cols-4 gap-7 list-none'>
 
                 <div className='competencias'>
                     <SiJavascript size='1.5rem' />
@@ -42,7 +42,7 @@ function Competencias() {
                 </div>
                 <div className='competencias'>
                     <IoLogoNodejs size='1.5rem' />
-                    <span>Node JS</span>
+                    <span>NodeJS</span>
                 </div>
                 <div className='competencias'>
                     <SiMongodb size='1.5rem' />

@@ -8,7 +8,8 @@ import {
     portfolio,
     calendar,
     demoBlackjack,
-    cotizadorCriptomonedas
+    cotizadorCriptomonedas,
+    clima
 } from '../img';
 
 
@@ -16,21 +17,21 @@ export const dataProyectos = [
 
     {
         title: 'Shopping cart',
-        description: 'Tienda con carrito de compra donde se puede filtrar por precio y categorias, agregar al carrito, cambiar la cantidad del producto y/o eliminarlo. Tecnologías: HTML5 - CSS - JavaScript - React - Vite',
+        description: 'Tienda con carrito de compra donde se puede filtrar por precio y categorias, agregar al carrito, cambiar la cantidad del producto y/o eliminarlo. Tecnologías: CSS - JavaScript - React - Vite',
         image: carrito,
         repositorio: 'https://github.com/fede-alejandro/shopping-cart',
 
     },
     {
         title: 'Como lo reciclo',
-        description: 'Una aplicación para que los usuarios donen artículos que ya no utilizan y les den una segunda vida. Al registrarse pueden realizar publicaciones, recibir mensajes de interesados y decidir a quién donarlos.También contiene información sobre reciclaje y un podcasts de Spotify. Tecnologías: HTML5 - CSS - JavaScript - React - Node Js - Express Mongo - Mongoose - Tailwind',
+        description: 'Una aplicación para que los usuarios donen artículos que ya no utilizan y les den una segunda vida. Al registrarse pueden realizar publicaciones, recibir mensajes de interesados y decidir a quién donarlos.También contiene información sobre reciclaje y un podcasts de Spotify. Tecnologías: JavaScript - React - Node Js - Express Mongo - Mongoose - Tailwind',
         image: proyecto,
         repositorio: 'https://github.com/fede-alejandro/como-lo-reciclo',
 
     },
     {
         title: 'Agenda de tareas',
-        description: 'Desarrollo de un organizador de tareas. Contiene un página de registro, login y settings de perfil.Las tareas se pueden crear, editar, eliminar y categorizar por estados o progreso. Tecnologías: HTML5 - CSS - JavaScript - React - Tailwind',
+        description: 'Desarrollo de un organizador de tareas. Contiene un página de registro, login y settings de perfil.Las tareas se pueden crear, editar, eliminar y categorizar por estados o progreso. Tecnologías: JavaScript - React - Tailwind',
         image: agenda,
         repositorio: 'https://github.com/fede-alejandro/Agenda-tareas',
     },
@@ -50,30 +51,37 @@ export const dataProyectos = [
     },
     {
         title: 'Quiz App',
-        description: 'Juego de preguntas y respuestas sobre el espacio exterior. Tecnologías: HTML5, CSS, JavaScript',
+        description: 'Juego de preguntas y respuestas sobre el espacio exterior. Tecnologías: HTML5 - CSS - JavaScript',
         image: quizApp,
         repositorio: 'https://github.com/fede-alejandro/quiz-app',
         app: 'https://quiz-app-fedealejandro.vercel.app/'
     },
     {
         title: 'Portfolio',
-        description: 'Portfolio contando más acerca de mí, mis proyectos, experiencia. Tecnologías: HTML5 - CSS - JavaScript - React - Node Js - Tailwind',
+        description: 'Portfolio contando más acerca de mí, mis proyectos, experiencia. Tecnologías: JavaScript - React - Node Js - Tailwind',
         image: portfolio,
         repositorio: 'https://github.com/fede-alejandro/portfolio',
 
     },
     {
         title: 'Calendar',
-        description: 'Calendario donde poder anotar como recordatorio eventos futuros, se pueden editar o borrar. Contiene un registro y login, se puede ver por días, semanas o meses. Tecnologías: HTML5 - CSS - JavaScript - React - Node Js - Vite - Bootstrap',
+        description: 'Calendario donde poder anotar como recordatorio eventos futuros, se pueden editar o borrar. Contiene un registro y login, se puede ver por días, semanas o meses. Tecnologías: JavaScript - React - Node Js - Vite - Bootstrap',
         image: calendar,
         repositorio: 'https://github.com/fede-alejandro/calendar',
     },
     {
         title: 'Cotizador criptomonedas',
-        description: 'Cotización de criptomonedas en tiempo real, eliges la moneda de tu país y la criptomoneda que desees y consultando la API de CryptoCompare obtenemos y mostramos la información. Tecnologías: JavaScript, Vite, React y utilizamos Styled Components',
+        description: 'Cotización de criptomonedas en tiempo real, eliges la moneda de tu país y la criptomoneda que desees y consultando la API de CryptoCompare obtenemos y mostramos la información. Tecnologías: JavaScript - Vite - React - Styled Components',
         image: cotizadorCriptomonedas,
         repositorio: 'https://github.com/fede-alejandro/cotizador_criptomonedas',
         app: 'https://cotizacioncriptomonedas.netlify.app/'
+    },
+     {
+        title: 'Clima',
+        description: 'App para consultar el clima en tu ciudad, los datos se obtienen consultando la API openweathermap.org, la petición se realiza mediante axios . Tecnologías: JavaScript - Vite - React - CSS',
+        image: clima,
+        repositorio: 'https://github.com/fede-alejandro/clima-app',
+        app: 'https://cool-snickerdoodle-e3ede0.netlify.app/'
     }
 ]
 

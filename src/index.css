@@ -14,7 +14,7 @@
 }
 
 .competencias {
-    @apply flex w-fit bg-rose-200 p-2 justify-center rounded-xl gap-2 shadow-xl shadow-gray-600;
+    @apply flex w-fit bg-rose-200 p-2 self-center rounded-xl gap-2 shadow-xl shadow-gray-600;
 }
 
 .button {

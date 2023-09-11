@@ -2,8 +2,6 @@ import { dataProyectos } from '../../data/proyectos';
 import { FaGithubSquare } from 'react-icons/fa';
 import { BsDisplay } from 'react-icons/bs'
 
-
-
 export const ProyectoCarta = ({
     title,
     description,
@@ -12,9 +10,8 @@ export const ProyectoCarta = ({
     image
 } = dataProyectos) => {
 
-
     return <article className='flex flex-col items-center w-[100%] text-[#c6d6dd]'>
-        <main className='flex flex-col border-none shadow-2xl items-center md:flex-row border-2  rounded-3xl p-4 m-4 gap-4 w-[50%]'>
+        <main className='bg-[#2b5570] flex flex-col border-none shadow-2xl items-center md:flex-row border-2  rounded-3xl p-4 m-4 gap-4 w-[50%]'>
             <div className='flex items-center'>
                 <img src={image} alt='ImageProject' className='rounded-md w-[10rem] lg:ml-2 max-w-lg' />
             </div>
