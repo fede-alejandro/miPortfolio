@@ -7,7 +7,7 @@ import { RiReactjsLine } from 'react-icons/ri'
 
 
 
-function Competencias() {
+export function Skills() {
 
     return <main className='flex content-center justify-center text-black font-bold italic w-[100%]'>
         <div className='flex flex-col justify-center content-center mt-20 md:flex-row gap-20'>
@@ -69,5 +69,3 @@ function Competencias() {
         </div>
     </main>
 }
-
-export default Competencias

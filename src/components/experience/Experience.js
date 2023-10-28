@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { dataExperiencia } from '../../data/experiencia';
+import { dataExperiencia } from '../../data/experience';
 import { experiecialaboral } from '../../img';
-import { CartaDeExperiencia } from './CartaDeExperiencia';
+import { ExperienceCard } from './ExperienceCard';
 
 
 
-function Experiencia() {
+export function Experience() {
 
     const [experiencias, setExperiencias] = useState(dataExperiencia)
 
@@ -15,10 +15,9 @@ function Experiencia() {
                 <img src={experiecialaboral} alt='avatar' />
             </div>
             {experiencias && <div>
-                {experiencias.map((experiencia) => (<CartaDeExperiencia key={experiencia.id}  {...experiencia} setExperiencias={setExperiencias}
+                {experiencias.map((experiencia) => (<ExperienceCard key={experiencia.id}  {...experiencia} setExperiencias={setExperiencias}
                 />))}
             </div>}
         </div>
     </main>
 }
-export default Experiencia

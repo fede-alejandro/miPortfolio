@@ -18,6 +18,7 @@ const calendar = require('./calendar.png')
 const demoBlackjack = require('./demoBlackjack.mp4')
 const cotizadorCriptomonedas = require('./cotizadorCriptomonedas.png')
 const clima = require('./clima.png')
+const quiscoApp = require('./quiscoApp.png')
 
 
 module.exports = {
@@ -40,5 +41,6 @@ module.exports = {
     calendar,
     demoBlackjack,
     cotizadorCriptomonedas,
-    clima
+    clima,
+    quiscoApp
 }

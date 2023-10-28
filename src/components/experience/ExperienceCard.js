@@ -1,6 +1,6 @@
-import { dataExperiencia } from '../../data/experiencia'
+import { dataExperiencia } from '../../data/experience'
 
-export const CartaDeExperiencia = ({
+export const ExperienceCard = ({
     title,
     ubicación,
     fecha,

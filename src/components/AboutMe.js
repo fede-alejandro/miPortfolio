@@ -4,8 +4,7 @@ import { SiGmail } from 'react-icons/si'
 import Typewriter from 'typewriter-effect';
 
 
-function SobreMi() {
-
+export function AboutMe() {
 
     return <main className='flex h-full w-full p-10 text-[#c6d6dd] flex-wrap'>
         <div className='flex flex-col justify-center content-center'>
@@ -65,4 +64,3 @@ function SobreMi() {
     </main>
 
 }
-export default SobreMi

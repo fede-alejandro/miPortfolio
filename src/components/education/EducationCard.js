@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { dataEducacion } from '../../data/educacion';
+import { dataEducacion } from '../../data/education';
 import { Temario } from './Temario';
 
-export const CartaDeEducacion = ({
-    id,
+export const EducationCard = ({
     titulo,
     temario,
     ubicación,
