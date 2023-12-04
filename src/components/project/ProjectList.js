@@ -6,8 +6,7 @@ export function ProjectList() {
 
     const [proyectos, setProyectos] = useState(dataProyectos)
     return (
-     
-        <main className='flex flex-row sm:flex-col items-center  p-10 max-w-max text-[#c6d6dd]'>
+        <main className='flex flex-col items-center w-[100%] p-10'>
             {proyectos && <div >
                 {proyectos.map((proyecto) => (
                     <ProjectCard

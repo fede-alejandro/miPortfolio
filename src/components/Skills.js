@@ -10,11 +10,11 @@ import { RiReactjsLine } from 'react-icons/ri'
 export function Skills() {
 
     return <main className='flex content-center justify-center text-black font-bold italic w-[100%]'>
-        <div className='flex flex-col justify-center content-center mt-20 md:flex-row gap-20'>
+        <div className='flex flex-col justify-items-center md:content-center gap-20'>
             <div className='flex justify-center mt-20'>
                 <img src={skills} alt='' className='h-40' />
             </div>
-            <div className='grid grid-cols-4 gap-7 list-none'>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-7'>
 
                 <div className='competencias'>
                     <SiJavascript size='1.5rem' />
