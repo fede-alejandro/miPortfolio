@@ -11,7 +11,7 @@ export const ProjectCard = ({
 } = dataProyectos) => {
 
     return (
-        <main className='bg-[#2b5570] text-[#c6d6dd] max-w-sm m-4 rounded-xl shadow'>
+        <main className='bg-[#2b5570] max-w-sm m-4 rounded-xl shadow'>
 
             <img src={image} alt='ImageProject' className='border border-gray-200 rounded-t-lg' />
 

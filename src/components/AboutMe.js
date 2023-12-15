@@ -6,16 +6,18 @@ import Typewriter from 'typewriter-effect';
 
 export function AboutMe() {
 
-    return <main className='flex h-full w-full p-10 text-[#c6d6dd] flex-wrap'>
-        <div className='flex flex-col justify-center content-center'>
-            <h1 className='font-bold text-5xl text-white mt-2'>Federico Alejandro</h1>
-            <Typewriter className='mt-2' options={{
-                strings: ['Full Stack Web Developer Jr'],
-                autoStart: true,
-                loop: true,
-                pauseFor: 2000
-            }} />
-            <div className='flex flex-col-reverse mt-4 items-center md:flex-row justify-between gap-20'>
+    return <main className='flex h-full w-full p-10 flex-wrap'>
+        <div className='flex flex-col text-center justify-center content-center '>
+            <div className='lg:text-left'>
+                <h1 className='font-bold text-5xl my-2'>Federico Alejandro</h1>
+                <Typewriter options={{
+                    strings: ['Full Stack Web Developer Jr'],
+                    autoStart: true,
+                    loop: true,
+                    pauseFor: 2000
+                }} />
+            </div>
+            <div className='flex flex-col-reverse mt-4 items-center lg:flex-row justify-between gap-20'>
 
                 <div className='flex flex-col justify-start content-center text-lg'>
                     <p>¡Bienvenidos a mi portfolio!. Soy un Desarrollador Full Stack Junior,
@@ -31,7 +33,7 @@ export function AboutMe() {
                         <strong>Te invito a que navegues por esta web para conocerme un poco mas.</strong>
                     </p>
 
-                    <div className='flex flex-row flex- gap-10 mt-20 flex-wrap'>
+                    <div className='flex flex-row gap-10 mt-20 flex-wrap justify-center lg:justify-start'>
                         <span>
                             <a className='flex items-center justify-center gap-4 hover:text-white hover:font-semibold'
                                 href='https://www.linkedin.com/in/federico-alejandro/'
