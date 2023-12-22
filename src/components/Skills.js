@@ -1,12 +1,7 @@
-import { skills } from '../img';
-
 export function Skills() {
 
     return <main className='flex content-center justify-center font-bold italic w-[100%]'>
-        <div className='flex flex-col md:content-center gap-20 mt-20'>
-            {/* <div className='flex justify-center mt-6'>
-                <img src={skills} alt='' className='h-40' />
-            </div> */}
+        <div className='flex flex-col md:content-center gap-20 my-10'>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-7'>
 
                 <div className='competencias'>
